@@ -1,0 +1,107 @@
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clear-zero{clear:both;line-height:0;height:0;margin:0;padding:0;}
+.aym-field-wrap{clear: both;margin-bottom: 10px;}
+.aym-field-wrap .aym-lable {
+    float: left;
+    width: 15%;
+    margin-right: 2%;
+}
+.aym-field-wrap .aym-field {
+    float: left;
+    width: 80%;
+}
+.aym-field input[type="text"] {
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    width: 95%;
+}
+.aym-field textarea {
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    width: 103%;
+}
+
+.aym-field-maplonglat input[type="text"]{width: 60%}
+.aym-locateonmap {
+    border: 1px solid #AAA;
+    border-radius: 6px;
+    color: #444444;
+    cursor: pointer;
+    padding: 3px 9px;
+    text-align: center;
+    text-decoration: none;
+}
+.aym-locateonmap:hover{border: 1px solid #bababa;color:#333;}
+.aym-map-canvas {
+    border: 6px solid #AAAAAA;
+}
+#aym-map-canvas-wrap {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#aym-map-find-address {
+    font-size: 14px;
+    height: 125px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+#aym-findonmap, #aym-addit {
+    background: none repeat scroll 0 0 #F0F0F0;
+    display: block;
+    margin-bottom: 19px;
+    width: 50%;
+}
+#aym-findonmap{position: relative;padding-left: 30px;}
+#aym-findonmap span {
+    font-size: 24px;
+    font-weight: bold;
+    left: 4px;
+    position: absolute;
+    top: 1px;
+}
+#aym-findonmap:focus, #aym-addit:focus{border: 1px solid #030;outline: 0 none;}
+.aym-field select {
+    height: 31px;
+    line-height: 28px;
+    padding: 5px 3px 5px 10px;
+    width: 30%;
+}
+.aym-field select option {
+    padding: 3px 0 0 12px;
+}
+
+.aymp-mediaupload {
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.aymp-single-img {
+    float: left;
+    margin-right: 8px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.aymp-image-bar {
+    background: none repeat scroll 0 0 #DEDEDE;
+    opacity: 0.3;
+    padding: 3px 6px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    -webkit-transition: all  .3 ease-in-out;
+    -moz-transition: all  .3 ease-in-out;
+    -ms-transition: all  .3 ease-in-out;
+    -o-transition: all  .3 ease-in-out;
+    transition: all  .3 ease-in-out;
+}
+.aymp-single-img:hover .aymp-image-bar{opacity: 1;}
+.aymp-single-img:active{cursor: move;}
+.aymp-single-img img{
+    width: 100%;
+    height: 100%;
+}
